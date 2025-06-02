@@ -7,4 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+RUN pip install python-dotenv==1.0.1
+
 CMD ["python", "copernicus_bot_v5_FINAL.py"]
